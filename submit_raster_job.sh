@@ -2,7 +2,7 @@
 
 #SBATCH -N 1            # number of nodes
 #SBATCH -c 16            # number of cores 
-#SBATCH -t 0-01:00:00   # time in d-hh:mm:ss
+#SBATCH -t 0-00:20:00   # time in d-hh:mm:ss
 #SBATCH --mem=128G      # memory for all cores in GB
 #SBATCH -q public       # QOS
 #SBATCH -o slurm.%j.out # file to save job's STDOUT (%j = JobId)
